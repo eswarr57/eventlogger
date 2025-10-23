@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // API base URL - adjust to your backend URL
-const API_BASE_URL = 'https://fullstack-1-hev3.onrender.com/api';
+const API_BASE_URL = 'https://eventlogger-yu3g.onrender.com/api';
 
 function App() {
   const [events, setEvents] = useState([]);
