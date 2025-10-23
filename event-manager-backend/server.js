@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection - Connect to your local MongoDB
-const MONGODB_URI = 'mongodb://localhost:27017/eventmanager';
+const MONGODB_URI = 'mongodb+srv://geddanarendra2_db_user:jagan1234@cluster0.yuwrp2i.mongodb.net/eventlogger?retryWrites=true&w=majority';
 
 console.log('🔗 Connecting to MongoDB at:', MONGODB_URI);
 
